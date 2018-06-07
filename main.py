@@ -61,7 +61,7 @@ def display(frame, decoded_objs):
         frame = cv2.rectangle(frame,
 			      (left, top),
 			      (left + width, height + top),
-			      (0, 255, 0), 2)
+			      (255, 255, 0), 2)
 
     return frame
 
